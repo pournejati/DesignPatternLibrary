@@ -1,2 +1,2 @@
-# DesignPatternLibrary
-A collection of design pattern samples for C#.
+# Design Pattern Library
+My collection of design pattern samples for C#.
