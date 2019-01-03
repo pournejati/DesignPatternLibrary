@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EventAggregator.EventAggregator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAEAAAAAAAAACAAAIQAAAAAAAAAA=</HashCode>
+      <FileName>EventAggregator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EventAggregator.Publisher" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventAggregator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EventAggregator.SubscriberA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACCAAAAAAAACAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>EventAggregator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EventAggregator.SubscriberB" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACCAAAAAAAACAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>EventAggregator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="EventAggregator.IEventAggregator">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAACAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>EventAggregator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EventAggregator.IPublisher&lt;TEvent&gt;">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventAggregator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="EventAggregator.ISubscriber&lt;TEvent&gt;">
+    <Position X="4.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>EventAggregator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

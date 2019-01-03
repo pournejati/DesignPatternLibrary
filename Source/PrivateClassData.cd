@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PrivateClassData.Employee">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="_EmployeeData" Type="PrivateClassData.EmployeeData">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.205" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAAAAAAAAAAAIAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>PrivateClassData.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_EmployeeData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PrivateClassData.EmployeeData">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>PrivateClassData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

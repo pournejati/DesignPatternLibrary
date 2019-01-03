@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="State.Appointment">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <AssociationLine Name="_State" Type="State.IAppointmentState" FixedToPoint="true">
+      <Path>
+        <Point X="4" Y="1.688" />
+        <Point X="2.25" Y="1.688" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.997" Y="0.034" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAABBAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>State.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_State" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="State.Canceled" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>State.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="State.CheckedIn" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>State.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="State.CheckedOut" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>State.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="State.Requested" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>State.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="State.Scheduled" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>State.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="State.IAppointmentState">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <AssociationLine Name="Appointment" Type="State.Appointment" FixedToPoint="true">
+      <Path>
+        <Point X="2.25" Y="1.125" />
+        <Point X="4" Y="1.125" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.777" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAQAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>State.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Appointment" />
+    </ShowAsAssociation>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
